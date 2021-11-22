@@ -1,0 +1,128 @@
+@import url('http://fonts.cdnfonts.com/css/mayeka-demo');
+body{
+    background-image: url('https://cdn.dribbble.com/users/59100/screenshots/15937123/media/3d665c8c88cb8359c87f1bf8e863b6f9.png?compress=1&resize=1200x900');
+    background-size: auto;
+    min-height: 753px;
+    margin: 0%;
+}
+
+.enter{
+    width: 70vw;
+    height: 40px;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.664);
+    font-size: large;
+    padding-right:10px;
+    padding-left:10px;
+    border: solid;
+    border-color: rgba(255, 255, 255, 0.548);
+    font-family: 'Mayeka Demi Bold Demo', sans-serif;                                            
+    transition: 0.8s;
+    align-items: center;
+}
+
+.inputField{
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Press{
+    width: 100px;
+    height: 42px;
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.698);
+    cursor: pointer;
+    border-style: none;
+}
+
+
+.card{
+    padding: 10px;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.712);
+    color: blanchedalmond;
+    font-family: 'Mayeka Demi Bold Demo', sans-serif;                                           
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.cards{
+    padding-top: 50px;
+    padding-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.header{
+    text-align: center;
+    color:whitesmoke;
+    background-color: rgba(0, 0, 0, 0.671);
+    border-radius: 10px;
+    width: 400px;
+}
+
+.header h1{
+                                                                        font-family: 'Mayeka Demi Bold Demo', sans-serif
+                                                
+
+}
+
+.header ul{
+    font-family: 'Mayeka Demi Bold Demo', sans-serif;                                         
+    text-align: left;
+    border: solid;
+    padding: 10px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: whitesmoke;
+    list-style: none;
+    white-space: nowrap;
+}
+
+.content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header p{
+    padding: 15px;
+    padding-top: 0px;
+    text-align: justify;
+    font-family: 'Mayeka Demi Bold Demo', sans-serif                                     
+}
+
+.info{
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.enter:focus{
+    border-color: rgba(0, 255, 255, 0.589);
+    outline:none;
+}
+
+a{
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.637);
+    border-radius: 15px;
+    padding: 10px;
+    text-decoration: none;
+    -webkit-animation:name 2s infinite;
+} 
+
+.credits{
+    text-align: center;
+    padding: 25px;
+}
+
+@-webkit-keyframes name {
+    0% { background-color: rgba(0, 0, 0, 0.637); color: whitesmoke;}
+    50% { background-color: rgba(0, 0, 0, 0.637); color: whitesmoke;}
+    51% { background-color: rgba(255, 235, 205, 0.637); color: black;}
+    100% { background-color: rgba(255, 235, 205, 0.637); color: black;}
+}
